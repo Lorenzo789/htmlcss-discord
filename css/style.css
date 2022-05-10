@@ -95,8 +95,8 @@ li{
 
 /* prima-sezione */
 .study-section{
+    padding: 100px 0px;
     justify-content: center;
-    height: 600px;
     align-items: center;
 }
 
@@ -112,21 +112,21 @@ li{
 
 /* seconda-sezione */
 .chillin-section{
+    padding: 100px 0px;
     justify-content: center;
-    height: 600px;
     align-items: center;
     background-color: lightgray;
 }
 /* seconda-sezione */
 
 /* quarta-sezione */
-.section5{
+.contact-section{
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: lightgray;
 }
 
-.green-square{
+.contact-content{
     text-align: center;
     margin: 0 auto;
     width: 90%;
@@ -136,11 +136,14 @@ li{
     width: 90%;
 }
 
-#medium-size{
+.medium-size{
     font-size: 30px;
 }
 
 #arrow-button2{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
     margin-right: 10px;
     background-color: rgb(114,137,218);
     border-color: rgb(114,137,218);
@@ -149,10 +152,9 @@ li{
 }
 /* quarta-sezione */
 
-/* section6 */
-.section6.flex{
-    background-color: darkslategray;
-    /* height: 600px; */
+/* footer-top */
+.footer-top.flex{
+    background-color: rgb(35,39,42);
     align-items: center;
     justify-content: center;
     padding: 10px 0px;
@@ -161,53 +163,87 @@ li{
 .container.flex{
     align-items: stretch;
     justify-content: end;
-    border: 3px dashed black;
     width: 80%;
-    /* height: 580px; */
 }
 
-.coral-square{
-     background-color: lightcoral;
-     width: 40%;
-     border: 3px dashed black;
+.contentsx{
+    align-items: center;
+    color: white;
+     width: 30%;
 }
 
-.seagreen-square{
-    border: 3px dashed white;
-    width: calc(70% / 4);
-    background-color: lightseagreen;
+.footer-content{
+    padding: 20px 0px;
+    color: rgb(109,134,215);
 }
-/* section6 */
-/*
-hr{
-    border-color: white;
-} */
 
-/* footer */
-/* footer{
-    background-color: darkslategray;
-    /* height: 100px; */
+#flag-italy{
+    width: 20px;
+}
+
+.fa-brands.fa-instagram{
+    padding-right: 10px;
     padding-top: 15px;
-} */
+}
 
-/* .banner-footer{
+.fa-brands.fa-twitter{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.fa-brands.fa-facebook-square{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.fa-brands.fa-youtube{
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.contentdx{
+    color: white;
+    width: calc(70% / 4);
+}
+
+li{
+    list-style: none;
+}
+/* footer-top */
+
+hr{
+    margin: 0 auto;
+    width: 80%;
+    border-color: rgb(109,134,215);
+}
+
+/* footer-bottom */
+footer{
+    padding: 50px 0px;
+    background-color: rgb(35,39,42);
+}
+
+.banner-footer{
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    /* height: 80px; */
     width: 80%;
-    background-color: aquamarine;
-} */
+    padding-top: 20px;
+} 
 
-/* .logo{
+.logo-footer{
+    color: white;
+    font-size: 25px;
     padding: 5px;
-    border: 3px dashed black;
-    background-color: lightpink;
-} */
-
-/* .bottone{
-    padding: 5px;
-    border: 3px dashed black;
-    background-color: lightpink;
 }
-footer */
+
+.small-button-footer{
+    color: white;
+    text-align: center;
+    width: 80px;
+    border-color: rgb(114,137,218);
+    padding: 6px 0px;
+    border-radius: 15px;
+    background-color: rgb(114,137,218);
+}
+/* footer-bottom */
