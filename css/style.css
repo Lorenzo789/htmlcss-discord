@@ -9,20 +9,33 @@
 
 /* header */
 header{
-    background-color: lightblue;
-    padding: 10px;
+    background-color: #1B52F4;
+    color: white;
 }
 
-
 .navigation{
-    background-color: goldenrod;
     margin: 0 auto;
     width: 80%;
+    padding: 10px 5px 5px 5px;
+}
+
+ul.flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-top{
+    font-size: 25px;
+}
+
+.fa-brands.fa-discord{
+    font-size: x-large;;
 }
 
 a{
     text-decoration: none;
-    padding: 3px;
+    padding: 25px;
+    color: white;
 }
 
 li{
@@ -30,26 +43,55 @@ li{
     padding: 5px;
 }
 
-ul.flex{
-    justify-content: space-between;
-    border: 2px dashed black;
+.button{
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20px;
 }
-/* header */
 
-/* section1 */
-.section1{
-    background-color: darkblue;
-    padding: 20px;
+.small-button{
+    width: 60px;
+    border-color: white;
+    padding: 6px 0px;
+    border-radius: 15px;
+    background-color: white;
+}
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .violet-square{
-    background-color: violet;
+    padding-bottom: 140px;
+    padding-top: 120px;
+    text-align: center;
     width: 60%;
     margin: 0 auto;
-    height: 350px;
-    border: 3px dashed black;
 }
-/* section1 */
+
+.big-size{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+
+.small-size{
+    font-size: 25px;
+}
+
+#arrow-button{
+    margin-right: 10px;
+    background-color: white;
+    border-color: white;
+    margin-top: 25px;
+}
+
+#discord-button{
+    background-color: rgb(35,39,42);
+    color: white;
+    border-color: rgb(35,39,42);
+}
+/* header */
 
 /* section2 */
 .section2{
