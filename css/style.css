@@ -62,7 +62,7 @@ li{
     background-size: cover;
 }
 
-.violet-square{
+.jumbo-content{
     padding-bottom: 140px;
     padding-top: 120px;
     text-align: center;
@@ -93,36 +93,31 @@ li{
 }
 /* header */
 
-/* section2 */
-.section2{
+/* prima-sezione */
+.study-section{
     justify-content: center;
     height: 600px;
     align-items: center;
 }
 
-.blue-square{
-    background-color: dodgerblue;
+.study-frog{
     width: 50%;
-    height: 500px;
-    border: 3px dashed black;
 }
 
-.pink-square{
-    background-color: pink;
+.study-content{
+    padding: 10px;
     width: 30%;
-    height: 500px;
-    border: 3px dashed black;
 }
-/* section2 */
+/* prima-sezione */
 
-/* section3 */
-.section3{
+/* seconda-sezione */
+.chillin-section{
     justify-content: center;
     height: 600px;
     align-items: center;
     background-color: lightgray;
 }
-/* section3 */
+/* seconda-sezione */
 
 /* section5 */
 .section5{
