@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+/* header */
+header{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+
+.navigation{
+    background-color: goldenrod;
+    margin: 0 auto;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+ul.flex{
+    justify-content: space-between;
+    border: 2px dashed black;
+}
+/* header */
+
+/* section1 */
+.section1{
+    background-color: darkblue;
+    padding: 20px;
+}
+
+.violet-square{
+    background-color: violet;
+    width: 60%;
+    margin: 0 auto;
+    height: 350px;
+    border: 3px dashed black;
+}
+/* section1 */
+
+/* section2 */
+.section2{
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+}
+
+.blue-square{
+    background-color: dodgerblue;
+    width: 50%;
+    height: 500px;
+    border: 3px dashed black;
+}
+
+.pink-square{
+    background-color: pink;
+    width: 30%;
+    height: 500px;
+    border: 3px dashed black;
+}
+/* section2 */
+
+/* section3 */
+.section3{
+    justify-content: center;
+    height: 600px;
+    align-items: center;
+    background-color: lightgray;
+}
+/* section3 */
+
+/* section5 */
+.section5{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 800px;
+    background-color: lightgray;
+}
+
+.green-square{
+    border: 3px dotted black;
+    margin: 0 auto;
+    width: 80%;
+    height: 700px;
+    background-color: forestgreen;
+}
+/* section5 */
+
+/* section6 */
+.section6.flex{
+    background-color: darkslategray;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.container.flex{
+    align-items: stretch;
+    justify-content: end;
+    border: 3px dashed black;
+    width: 80%;
+    height: 580px;
+    /* background-color: lightcoral; */
+}
+
+.coral-square{
+     background-color: lightcoral;
+     width: 40%;
+     border: 3px dashed black;
+}
+
+.seagreen-square{
+    border: 3px dashed white;
+    width: calc(70% / 4);
+    background-color: lightseagreen;
+}
+/* section6 */
+
+hr{
+    border-color: white;
+}
+
+/* footer */
+footer{
+    background-color: darkslategray;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.banner-footer{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 80px;
+    width: 80%;
+    background-color: aquamarine;
+}
+
+.logo{
+    padding: 5px;
+    border: 3px dashed black;
+    background-color: lightpink;
+}
+
+.bottone{
+    padding: 5px;
+    border: 3px dashed black;
+    background-color: lightpink;
+}
+/* footer */
